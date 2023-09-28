@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  /*font family*/
+  font-family: "Montserrat", sans-serif;
+
+  text-decoration: none;
+  list-style: none;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  height: 65px;
+  padding: 0px 50px;
+  gap: 30px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+/* scroll*/
+.logo {
+  height: 50%;
+}
+.navbar,
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  gap: 100px;
+}
+.navbar-list {
+  gap: 30px;
+}
+.navbar {
+  display: flex;
+}
+.navbar i {
+  font-size: 36px;
+  display: none;
+}
+#toggle-menu {
+  display: none;
+}
+
+.navbar-list a {
+  color: aqua;
+  font-size: 16px;
+}
+.navbar-list li:first-child > a {
+  font-weight: 600;
+}
+.fa-cart-shopping {
+  font-weight: 600;
+  border-radius: 10px;
+  height: 30px;
+  padding: 5px 10px;
+  margin-right: 1rem;
+  color: aquamarine;
+  cursor: pointer;
+}
+main {
+  background: linear-gradient(to right, #0f2027, #203a43, #2a5a6e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%; /* que ocupe todo el ancho dsponible*/
+}
+/* HERO SECTION*/
+#Hero {
+  margin-top: 65px; /* separa del header*/
+
+  padding: 70px 0px;
+  width: 90%;
+  /* max-width: 1200px;*/
+  display: flex;
+
+  justify-content: space-around;
+  /*align-items: center;*/
+}
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+.hero-info h1 {
+  font-size: 48px;
+  width: 80%;
+  font-weight: 700;
+  min-width: 500px;
+  color: aqua;
+}
+.hero-info h2 {
+  font: size 24px;
+  width: 70%;
+  font-weight: 800;
+  min-width: 500px;
+  color: aqua;
+}
+
+.hero-info p {
+  font-size: 14px;
+  font-weight: 300;
+  max-width: 350px;
+}
+
+.button-container {
+  /* botón*/
+  display: flex;
+  gap: 15px;
+  /* border-radius: 10px;
+  font-size: 12px;
+  color: rgb(167, 29, 29);
+  background-color: #5d7580;
+  font-weight: 600;
+  padding: 6px 2px;
+  width: 120px;
+  text-align: center;*/
+}
+.button-container a {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: aquamarine;
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+.hero-img {
+  width: 360px;
+}
+/* About*/
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 850px;
+  padding: 30px 0px;
+  font-weight: 300;
+  text-align: center;
+}
