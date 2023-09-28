@@ -50,6 +50,9 @@
   #Hero {
     width: 100%;
   }
+  .hero-info h2 {
+    width: 80%;
+  }
   .hero-info p {
     max-width: 100%;
   }
