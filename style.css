@@ -112,7 +112,7 @@ main {
 .hero-info p {
   font-size: 14px;
   font-weight: 300;
-  max-width: 350px;
+  max-width: 320px;
 }
 
 .button-container {
@@ -179,4 +179,60 @@ main {
 }
 .card h3 {
   font-size: 20px;
+}
+/*.........   contacto.....*/
+#contact {
+  display: flex;
+  padding: 70px 30px;
+  width: 100%;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.contact-info-container {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+.info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info-column h3 {
+  font-size: 24px;
+}
+.info-column p,
+.info-column a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.info-column a {
+  text-decoration: none;
+  color: white;
+}
+iframe {
+  height: 350px;
+  width: 350px;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 20px;
+  height: 80px;
+
+  background: linear-gradient(to right, rgb(93, 93, 192), paleturquoise);
+}
+footer img {
+  height: 50px;
 }
