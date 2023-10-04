@@ -47,9 +47,9 @@
   font-size: 36px;
   display: none;
 }
-#toggle-menu {
+/*#toggle-menu {
   display: none;
-}
+}*/
 
 .navbar-list a {
   color: aqua;
@@ -58,15 +58,93 @@
 .navbar-list li:first-child > a {
   font-weight: 600;
 }
+
 .fa-cart-shopping {
   font-weight: 600;
   border-radius: 10px;
-  height: 30px;
+  height: 36px;
   padding: 5px 10px;
   margin-right: 1rem;
   color: aquamarine;
   cursor: pointer;
 }
+/*   copia*/
+#menu-toggle,
+#cart-toggle,
+.menu-label {
+  display: none;
+}
+
+/* copia*/
+.cart {
+  position: absolute;
+  top: 65px;
+  right: 0;
+  padding: 50px 30px;
+  background-color: black;
+  border-left: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: calc(100vh - 65px);
+  overflow-y: scroll;
+  z-index: 2;
+  display: none;
+}
+.cart::-webkit-scrollbar {
+  display: none;
+}
+.cart h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: aqua;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.cart-item .fa-calendar-days {
+  height: 65px;
+  width: 65px;
+}
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
+.item-tittle {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+.item-price {
+  background-color: bisque;
+  color: black;
+
+  font-size: 16px;
+  font-weight: 800;
+}
+.divider {
+  margin-top: 20px;
+  border: 0.5px solid aqua;
+}
+.btn-add {
+  background-color: aqua;
+  border: none;
+  padding: 10px 35px;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#cart-toggle:checked ~ .cart {
+  display: flex;
+}
+
 main {
   background: linear-gradient(to right, #0f2027, #203a43, #2a5a6e);
   display: flex;

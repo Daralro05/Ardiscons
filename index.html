@@ -15,49 +15,56 @@
     <header class="header">
       <img src="./assets/Logo.png" alt="logo" class="logo" />
       <nav class="navbar">
-        <label for="toggle-menu"><i class="fas fa-bars"></i></label>
-        <input type="checkbox" id="toggle-menu" />
+        <label for="menu-toggle" class="menu-label"
+          ><i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu-toggle" />
         <ul class="navbar-list">
           <li><a href="#">Home</a></li>
           <li><a href="#">Menú</a></li>
           <li><a href="#">Contacto</a></li>
           <li><a href="#">Registrate</a></li>
         </ul>
-        <!-- <i
-          class="fa-solid fa-cart-shopping"
-          alt="Carrito"
-          class="cart-icon"
-        ></i>-->
-      </nav>
-
-      <!--Carrito-->
-      <!--  <div class="cart">
-          <h2>suscribite</h2>
+        <label for="cart-toggle" class="cart-label">
+          <!--<img
+            src="./assets/shopping-cart (2).svg"
+            alt="Carrito"
+            class="cart-icon"
+          />-->
+          <i class="fa-solid fa-cart-shopping"></i>
+        </label>
+        <input type="checkbox" id="cart-toggle" />
+        <!--Carrito-->
+        <div class="cart">
+          <h2>Suscribite</h2>
           <div class="cart-item">
             <i class="fa-regular fa-calendar-days"></i>
             <div class="item-info">
-              <h3>1 Mes</h3>
+              <h3 class="item-tittle">Mes</h3>
               <span class="item-price">U$S 10</span>
             </div>
           </div>
+
           <div class="cart-item">
             <i class="fa-regular fa-calendar-days"></i>
             <div class="item-info">
-              <h3>6 Meses</h3>
+              <h3 class="item-tittle">6 Meses</h3>
               <span class="item-price">U$S 55</span>
             </div>
           </div>
+
           <div class="cart-item">
             <i class="fa-regular fa-calendar-days"></i>
             <div class="item-info">
-              <h3>1 Año</h3>
+              <h3 class="item-tittle">1 Año</h3>
               <span class="item-price">U$S 100</span>
             </div>
           </div>
+
           <span class="divider"></span>
           <button class="btn-add">Comprar</button>
         </div>
-      </nav>-->
+      </nav>
     </header>
 
     <main>
