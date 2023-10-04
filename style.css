@@ -45,7 +45,7 @@
 }
 .navbar i {
   font-size: 36px;
-  display: none;
+  /* display: none;*/
 }
 /*#toggle-menu {
   display: none;
@@ -65,7 +65,7 @@
   height: 36px;
   padding: 5px 10px;
   margin-right: 1rem;
-  color: aquamarine;
+  color: aqua;
   cursor: pointer;
 }
 /*   copia*/
@@ -80,6 +80,7 @@
   position: absolute;
   top: 65px;
   right: 0;
+
   padding: 50px 30px;
   background-color: black;
   border-left: 1px solid white;
@@ -111,7 +112,10 @@
 }
 .cart-item .fa-calendar-days {
   height: 65px;
-  width: 65px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .item-info {
   display: flex;
