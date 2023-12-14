@@ -47,10 +47,12 @@
   .hero-info h1 {
     display: block; /*.~.*/
     width: 100%;
+    font-size: 36px;
   }
   .hero-info h2 {
     display: block;
     width: 100%;
+    font-size: 24px;
   }
   .hero-info p {
     max-width: 80%;
@@ -75,7 +77,12 @@
   .info-container h2 {
     text-align: center;
   }
+  .main {
+    width: 100vw;
+  }
+  /*-----------------------------------------------------------------------------------------------*/
 }
+/*.......................................................576........................................*/
 
 @media (max-width: 576px) {
   .cart {
@@ -108,12 +115,17 @@
     transform: translateX(0%);
     transition: all 0.4s ease-in;
   }
-
   #Hero {
-    width: 100%;
+    display: flex;
+    gap: 3%;
+  }
+  .hero-info h1 {
+    min-width: 256px;
+    font-size: 36px;
   }
   .hero-info h2 {
-    max-width: 90%;
+    min-width: 256px;
+    font-size: 24px;
   }
   .hero-info p {
     max-width: 90%;
@@ -127,7 +139,36 @@
     align-items: center;
   }
   iframe {
-    height: 300px;
+    height: 200px;
+    width: 200px;
+  }
+  .main {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero {
+    max-width: 600px;
+  }
+}
+
+/*-------------------------------------------------------------*/
+@media (max-width: 320px) {
+  /*#Hero {
+    max-width: 20rem;
+  }*/
+  .hero-info {
     width: 100%;
+    padding: 10%;
+  }
+  .hero-info h1 {
+    min-width: 250px;
+  }
+  .hero-info h2 {
+    min-width: 250px;
+  }
+  .hero-info p {
+    max-width: 70%;
   }
 }
