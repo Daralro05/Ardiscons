@@ -38,7 +38,7 @@
   #menu-toggle:checked ~ .navbar-list {
     display: flex;
   }
-
+  /*...............................................................................................*/
   .hero-info {
     text-align: center;
     width: 90%;

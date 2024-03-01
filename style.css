@@ -109,6 +109,7 @@
   padding: 20px;
   border: 1px solid white;
   border-radius: 10px;
+  cursor: pointer;
 }
 .cart-item .fa-calendar-days {
   height: 65px;
